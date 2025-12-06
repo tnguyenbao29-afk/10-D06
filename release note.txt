@@ -14,7 +14,7 @@ Nhóm phát triển và phần trăm đóng góp:
 3. Huỳnh Thị Thanh Ngân - 16,6% ( Unit test backend và module gif)
 4. Hồ Như Trâm         - 16,6% ( Unit test frontend và tích hợp) 
 5. Nguyễn Bảo Trân    - 17%  ( Viết release note.txt và hổ trợ phần code module gif Backend form giao hàng và liên hệ)
-6. Nguyễn Thanh Thảo  -  16% (Viết readme.txt và hổ trợ phần frontend/frontend test)
+6. Nguyễn Thanh Thảo  -  16,6% (Viết readme.txt và hổ trợ phần frontend/frontend test)
 
 Các sản phẩm và file do nhóm phát triển:
 
@@ -44,3 +44,4 @@ Ghi chú:
 - Mọi vấn đề phát sinh trong quá trình chạy hệ thống có thể liên hệ trực tiếp với các thành viên theo % đóng góp.
 
 =========================================
+
