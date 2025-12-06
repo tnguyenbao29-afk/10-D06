@@ -1,0 +1,46 @@
+RELEASE NOTE
+=========================================
+
+Tên nhóm: 10-DO6
+Tên sản phẩm: Hệ thống giao hàng giày dép và liên hệ khách hàng
+
+Mục đích sản phẩm:
+Phát triển hệ thống quản lý giao hàng giày dép, theo dõi đơn hàng và hỗ trợ khách hàng liên hệ trực tiếp. Hệ thống giúp quản lý tình trạng giao hàng, thông báo cho khách hàng và đảm bảo đơn hàng được xử lý nhanh chóng.
+
+Nhóm phát triển và phần trăm đóng góp:
+
+1. Lưu Viễn Dương     -  16,6% ( code module gif- liên hệ khách hàng
+2. Nguyễn Thị Lan Hương  -  16,6%(code frontend)
+3. Huỳnh Thị Thanh Ngân - 16,6% ( Unit test backend và module gif)
+4. Hồ Như Trâm         - 16,6% ( Unit test frontend và tích hợp) 
+5. Nguyễn Bảo Trân    - 17%  ( Viết release note.txt và hổ trợ phần code module gif Backend form giao hàng và liên hệ)
+6. Nguyễn Thanh Thảo  -  16% (Viết readme.txt và hổ trợ phần frontend/frontend test)
+
+Các sản phẩm và file do nhóm phát triển:
+
+- 02_DO1_us.txt       : Tài liệu yêu cầu người dùng (User Story)
+- 02_DO1_db.docx      : Thiết kế cơ sở dữ liệu
+- db.sql              : Cơ sở dữ liệu (bảng và dữ liệu mẫu)
+- [unit test]         : Folder chứa các file kiểm thử chức năng
+- [code]              : Folder chứa toàn bộ mã nguồn hệ thống
+- readme.txt          : Hướng dẫn cài đặt và chạy code
+
+Tính năng chính của hệ thống:
+1. Quản lý đơn hàng giày dép: Thêm, sửa, xóa, tra cứu đơn hàng
+2. Theo dõi tình trạng giao hàng: Đang giao, đã giao, hủy
+3. Quản lý khách hàng: Thêm, sửa, xóa, tra cứu thông tin khách hàng
+4. Liên hệ khách hàng: Nhắn tin hoặc gửi thông báo về đơn hàng
+5. Báo cáo: Thống kê số lượng đơn hàng, tình trạng giao hàng theo ngày/tháng
+
+Công nghệ sử dụng:
+- Ngôn ngữ lập trình: Python / PHP / Java (tùy nhóm)
+- Cơ sở dữ liệu: MySQL
+- Công cụ phát triển: Visual Studio Code / PyCharm / PHPStorm
+- Công cụ kiểm thử: Unit test Python / PHPUnit / tương ứng
+
+Ghi chú:
+- Toàn bộ sản phẩm trên được phát triển bởi nhóm 10-DO6 cho dự án giao hàng giày dép.
+- % đóng góp thể hiện tỉ lệ công việc của từng thành viên trong dự án.
+- Mọi vấn đề phát sinh trong quá trình chạy hệ thống có thể liên hệ trực tiếp với các thành viên theo % đóng góp.
+
+=========================================

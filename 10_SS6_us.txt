@@ -1,0 +1,72 @@
+Use Case / User Stories — Hệ thống bán giày dép (SS6)
+
+1. Xác định đối tượng (Actor)
+
+ - Khách hàng (Customer): Người mua sản phẩm, nhận hàng, liên hệ CSKH khi cần.
+ - Nhân viên giao hàng (Shipper / Delivery Staff): Người tiếp nhận đơn hàng và thực hiện việc giao hàng, liên hệ với khách hàng.
+ - Người quản lý (Admin/Manager): Quản trị hệ thống, quản lý khách hàng, shipper, đơn hàng, và xem báo cáo.
+ - Nhân viên chăm sóc khách hàng (Customer Support Staff / CSKH): Tiếp nhận, xử lý và phản hồi yêu cầu từ khách hàng.
+
+
+2. Xác định hành vi chính (Use Case)
+
+ A. Khách hàng (Customer)
+
+1. Theo dõi trạng thái giao hàng
+ -  US1: Là khách hàng, tôi muốn theo dõi tiến trình đơn hàng (đang giao, đã giao) để biết khi nào nhận hàng.
+
+2. Xác nhận giao hàng thành công
+ -  US2: Là khách hàng, tôi muốn xác nhận khi đã nhận được hàng để hoàn tất đơn hàng.
+
+3. Liên hệ shipper khi cần
+ -  US3: Là khách hàng, tôi muốn liên hệ với shipper (qua điện thoại hoặc chat) để trao đổi về địa điểm và thời gian giao hàng.
+
+4. Liên hệ CSKH
+ -  US4: Là khách hàng, tôi muốn gửi yêu cầu hỗ trợ (hỏi về sản phẩm, khuyến mãi, đổi/trả hàng, bảo hành) để được shop tư vấn.
+
+
+ B. Nhân viên giao hàng (Shipper / Delivery Staff)
+
+1. Nhận đơn giao hàng
+ -  US5: Là shipper, tôi muốn nhận đơn hàng được phân công để bắt đầu giao hàng.
+
+2. Cập nhật trạng thái đơn hàng:
+ -  US6: Là shipper, tôi muốn cập nhật trạng thái đơn hàng (on-going, delivered) để khách hàng và hệ thống biết tiến độ.
+
+3. Liên hệ khách hàng khi cần:
+ -  US7: Là shipper, tôi muốn liên hệ khách hàng khi không tìm được địa chỉ hoặc cần xác nhận thời gian giao hàng.
+
+
+ C. Người quản lý (Admin/Manager)
+
+1. Quản lý khách hàng:
+ -  US8: Là quản lý, tôi muốn quản lý thông tin khách hàng (thêm, sửa, khóa/mở tài khoản) để đảm bảo tính minh bạch.
+
+2. Quản lý shipper:
+ -  US9: Là quản lý, tôi muốn thêm, sửa, xóa tài khoản shipper để kiểm soát đội ngũ giao hàng.
+
+3. Quản lý đơn hàng:
+ -  US10: Là quản lý, tôi muốn xem và quản lý tất cả đơn hàng để xử lý khi có sự cố.
+
+4. Xem báo cáo:
+ -  US11: Là quản lý, tôi muốn xem báo cáo doanh thu, số lượng đơn hàng, sản phẩm bán chạy để đưa ra quyết định kinh doanh.
+
+
+D. Nhân viên chăm sóc khách hàng (CSKH)
+
+1. Tiếp nhận liên hệ từ khách hàng
+ - US12: Là nhân viên CSKH, tôi muốn tiếp nhận các yêu cầu liên hệ từ khách hàng để ghi nhận và xử lý kịp thời.
+
+2. Phản hồi liên hệ khách hàng:
+ -  US13: Là nhân viên CSKH, tôi muốn phản hồi thắc mắc hoặc khiếu nại của khách hàng để nâng cao sự hài lòng.
+
+3. Quản lý lịch sử liên hệ:
+ - US14: Là nhân viên CSKH, tôi muốn lưu lại lịch sử trao đổi với khách hàng để tham khảo cho các lần hỗ trợ sau.
+
+==================================================
+3. Tóm tắt
+
+ - Khách hàng: Theo dõi đơn hàng, xác nhận nhận hàng, liên hệ shipper, liên hệ CSKH.
+ - Shipper: Nhận đơn, cập nhật trạng thái, liên hệ khách hàng.
+ - Quản lý: Quản lý khách hàng, shipper, đơn hàng, xem báo cáo.
+ - CSKH: Tiếp nhận yêu cầu, phản hồi, quản lý lịch sử liên hệ khách hàng.
